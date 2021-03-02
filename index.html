@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="stylesheet.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <title>Ashley Pauldo</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li>
+        <a href="/index.html">Home</a>
+      </li>
+      <li>
+        <a href="/projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="/contacts.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-    <nav>
-      <ul>
-        <li>
-          <a href="Home.js">Home</a>
-        </li>
-        <li>
-          <a href="Products.js">Products</a>
-        </li>
-        <li>
-          <a href="Contact.js">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </head>
+  <!-- Header -->
 
-  <body>
+  <div id="header">
     <h1>Ashley Pauldo</h1>
-    <img src="img/IMG_1727.jpg" class="center" />
-    <p>
+    <img src="img/IMG_1727.jpg" class="center"/>
+
+    <h1 class="header_subheader">About Me</h1>
+
+    <p class="aboutme">
       Originally from Georgia, I'm a 24 yrs old and am an aspiring Software
       Developer. Lover of dogs, food enthusiast, human and civil rights
       advocate. I've always been the tech savvy person of the family. I would
@@ -43,7 +52,78 @@
       community to work towards a position in management. I am confident in my
       capability to achieve this.
     </p>
+
+    <button onclick="location.href='/projects.html'">Projects</button>
+  </div>
+
+<!-- Resume -->
+  <section id="resume">
+    <h1>My Experience</h1>
+    <img class="resume" src="/img/resume.png">
+  </section>
+
+
+<!-- Projects -->
+
+  <h1 class="projectheader">My Projects</h1>
+  <div class="grid-container">
+    <div class="grid-items">
+      <img class="grid-items-item" src="img/gateway.png" />
+      <h3>Project Name</h3>
+      <p>Description.</p>
+      <a class="grid-items-item-link" href="">See More</a>
+  </div>
+
+  <div class="grid-items">
+      <img class="grid-items-item" src="img/react.png" />
+      <h3>Project Name</h3>
+      <p>Description.</p>
+      <a class="grid-items-item-link" href="">See More</a>
+  </div>
+
+  <div class="grid-items">
+      <img class="grid-items-item" src="img/reservation.png" />
+      <h3>Project Name</h3>
+      <p>Description.</p>
+      <a class="grid-items-item-link" href="">See More</a>
+  </div>
+
+  <div class="grid-items">
+      <img class="grid-items-item" src="img/Screen Shot 2021-03-02 at 12.46.11 PM.png" />
+      <h3>Project Name</h3>
+      <p>Description.</p>
+      <a  class="grid-items-item-link" href="">See More</a>
+  </div>
+
+  <div class="grid-items">
+      <img class="grid-items-item" src="img/tictac.png" />
+      <h3>Project Name</h3>
+      <p>Description.</p>
+      <a class="grid-items-item-link" href="">See More</a>
+    </div>
+  </div>
+
+  <!-- Contact -->
+ 
+  <h1 class="contactheader">Contact Me</h1>
+  <section id="reserve" class="content-block">
+    <form>
+      <label for="your_name">Your Name</label>
+      <input type="text" id="your_name" placeholder="Jane Doe" />
+
+      <label for="your_email">Your Email</label>
+      <input type="text" id="your_email" placeholder="Jane Doe" />
+
+      <label for="your_number">Number</label>
+      <input type="text" id="your_time" placeholder="123-456-7890" />
+
+      <input type="submit" value="submit" />
+    </form>
+  </section>
+
   </body>
 
-  <footer>Copyright 2021</footer>
+  <footer>
+    <p class="copyright">Copyright 2021</p>
+  </footer>
 </html>
