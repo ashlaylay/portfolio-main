@@ -54,17 +54,18 @@ body {
   text-align: center;
   margin: 10vh auto;
   width: 50vw;
+  background-color: grey;
 }
 
 .header_subheader {
-margin-top: 2vh;
-font-size: 18px;
+  margin-top: 2vh;
+  font-size: 18px;
 }
 
 .aboutme {
-margin: 2vh 0;
+  margin: 2vh 0;
+  background-color: grey;
 }
-
 
 /* Resume */
 
@@ -79,7 +80,11 @@ margin: 2vh 0;
 
 /* Projects  */
 .projectheader {
-text-align: center;
+  text-align: center;
+}
+
+.projectsection {
+  background-color: grey;
 }
 
 .grid-container {
@@ -108,13 +113,13 @@ text-align: center;
 }
 
 .grid-items-item-link:hover {
-text-decoration: underline;
-font-weight: bolder;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 /* Contact */
 .contactheader {
-text-align: center;
+  text-align: center;
 }
 
 #reserve {
@@ -127,12 +132,11 @@ form {
   border: 1px solid gray;
   margin: 2vh;
   padding: 5%;
-
 }
 /* Footer */
 
 footer {
-  color:white;
+  color: white;
   height: 10vh;
   background: #333;
   text-align: center;
